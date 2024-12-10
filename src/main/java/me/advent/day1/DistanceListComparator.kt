@@ -61,7 +61,7 @@ class DistanceListComparator(data: String) {
 }
 
 fun main() {
-    val folder = "src/main/java/me/advent/day1/"
+    val folder = "src/main/inputs/day1/"
     val filename = "input.txt"
     val content = FileReader.readFile(folder + filename)
     val calculator = DistanceListComparator(data = content)
