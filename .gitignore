@@ -34,3 +34,6 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
+
+### Project Inputs ###
+/src/main/inputs/
